@@ -19,7 +19,7 @@ public class Entrada extends JFrame implements ActionListener{
 		setTitle("JukiParking\\CadastrandoCarro");
 		j.setVisible(false);//oculta a janela principal
 		JButton botaoCarroEntrando = new JButton("bla bla");
-		JButton botaoCarroSaindo = new JButton("bla bla bla");
+		JButton botaoCarroSaindo = new JButton("bla bla bla");//testeGitHub
 		setSize(403, 250);
 		setLocation(150, 150);
 		setResizable(false);
