@@ -18,7 +18,7 @@ public class JanelaPrincipal extends JFrame{
 		add(botaoCarroEntrando);
 		add(botaoCarroSaindo);
 		botaoCarroEntrando.addActionListener(new Entrada(this));//O construtor da classe entrada será executado neste momento. A palavra chave "this" vai transmitir o proprio objeto para o construtor da classe Entrada
-		//botaoCarroSaindo.addActionListener(new Saida());
+		botaoCarroSaindo.addActionListener(new Saida(this));//O construtor da classe saida será executado neste momento. A palavra chave "this" vai transmitir o proprio objeto para o construtor da classe Saida
 		setVisible(true);
 		System.out.println("fim do JanelaPrincipal()");
 	}
